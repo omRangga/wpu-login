@@ -1,13 +1,10 @@
 <?php
-defined('BASEPATH') or exit ('No direct script access allowed');
+defined('BASEPATH') OR exit('No direct script access allowed');
 
-/**
- * 
- */
-class Auth extends CI_Controller
-{
-	
-	public function index()	{
+class auth extends CI_Controller {
+
+	public function index()
+	{
 		$this->load->view('auth/login');
 	}
 }
